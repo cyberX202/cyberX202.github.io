@@ -10,9 +10,7 @@ p{color: black;
 a{
 	text-decoration: none;
 }
-header{
-	background-color: white;
-}
+
 li{color: black;
     font-size: 18px;
     margin: 2%;
@@ -21,7 +19,8 @@ li{color: black;
 }
 h1{color: #242F9B;
     font-size: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
+    margin-top: 40px;
     font-family: 'Playfair Display', serif;
 }	  
 span{color: #001D6E;
@@ -31,8 +30,11 @@ span{color: #001D6E;
     text-align: justify;
 }
 body{
-	background-color: #FFFFFF;
-	font-family: 'Caveat', cursive;
+	width: 100%;
+    height: 100%;
+    font-size: 2em;
+    line-height:135%;
+    font-family: 'Playfair Display', serif;
 } 
 .main{
 	background-color: white;
@@ -41,14 +43,16 @@ body{
 	margin: auto;
 }
 .text{
-	width: 75%;
+	width: 100%;
 	margin: auto;
-	padding: 70px;
+	padding: 30px;
 	text-align: justify;
 	font-size: calc(24px + 16 * (100vw / 1280));
 	}
 
 .logo{
+	margin: 0 auto;
+	max-width: 3000px;
 	background: white;
 	width: 100%;
 	display: flex;
