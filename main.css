@@ -10,6 +10,12 @@ p{color: black;
 a{
 	text-decoration: none;
 }
+header{
+	width: 100%;
+}
+header a{
+	text-decoration: none;
+}
 
 li{color: black;
     font-size: 18px;
@@ -28,6 +34,7 @@ span{color: #001D6E;
     margin: 2%;
     font-family: 'Playfair Display', serif;
     text-align: justify;
+    font-weight: 600;
 }
 body{
 	width: 100%;
@@ -38,12 +45,13 @@ body{
 } 
 .main{
 	background-color: white;
-	width: 95%;
+	width: 100%;
 	max-width: 1000px;
 	margin: auto;
 }
 .text{
 	width: 100%;
+	max-width: 1000px;
 	margin: auto;
 	padding: 30px;
 	text-align: justify;
@@ -105,8 +113,52 @@ img.picture{
 	max-width: 90%;
 	min-width: 500px;
 }
-@media (min-width: 767px){
+@media screen and (min-width: 767px){
  .text {
   font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
  }
+ .topnav{
+ 	padding: 8px 10px;
+ 	font-size: 12 px;
+ }
+ .logo{
+ 	width: 100%;
+ 	max-width: 3000px;
+ }
+ h1 li p span{
+ 	width: 100%;
+ 	min-width: 8px;
+ }
+}
+@media screen and (min-width:100px) and (max-width:1024px) {
+	body {
+    margin-top:40px;
+    width: 90%;
+    margin: 0 auto;
+	}
+	header{
+		width:90%;
+        margin:0 auto;
+	}
+	main{
+		width:67%;
+	}
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 24px
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 321px) {
+    h1 {
+        font-size: calc(1.5rem + 6 * (100vw - 320px) / 880);
+    }
+}
+
+@media (min-width: 1201px) {    
+    h1 {
+        font-size: 30px;
+    }
 }
