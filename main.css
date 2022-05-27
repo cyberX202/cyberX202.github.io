@@ -12,7 +12,6 @@ a{
 }
 header{
 	width: 100%;
-	background: no-repeat center top / cover;
 }
 header a{
 	text-decoration: none;
@@ -25,14 +24,14 @@ li{color: black;
     font-family: 'Vollkorn', serif;
 }
 h1{color: #242F9B;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 100px;
-    margin-top: 40px;
+    margin-top: 200px;
     font-family: 'Playfair Display', serif;
 }	  
 span{color: #001D6E;
     font-size: 25px;
-    margin: 1%;
+    margin: 2%;
     font-family: 'Playfair Display', serif;
     text-align: justify;
     font-weight: 600;
@@ -48,43 +47,9 @@ body{
 	width: 100%;
 	max-width: 3500px;
 	margin: 0px auto;
-	padding: 0px 5px;
+	padding: 0px 0px;
 }
 
-@media(max-width: 3500px){
-	.container{
-		max-width: 3300px;
-	}
-}
-@media(max-width: 3310px){
-	.container{
-		max-width: 2800px;
-	}
-}@media(max-width: 2860px){
-	.container{
-		max-width: 2500px;
-	}
-}
-@media(max-width: 2510px){
-	.container{
-		max-width: 2200px;
-	}
-}
-@media(max-width: 2220px){
-	.container{
-		max-width: 1800px;
-	}
-}
-@media(max-width: 1810px){
-	.container{
-		max-width: 1500px;
-	}
-}
-@media(max-width: 1520px){
-	.container{
-		max-width: 1200px;
-	}
-}
 @media(max-width: 1200px){
 	.container{
 		max-width: 970px;
@@ -97,15 +62,21 @@ body{
 }
 @media(max-width: 767px){
 	.container{
+		max-width: 480px;
+	}
+}
+@media(max-width: 485px){
+	.container{
 		max-width: none;
 	}
 }
 
 
+
 .main{
-	background-color: white;
+	background-color: #06113C;
 	width: 100%;
-	margin: auto;
+	margin-top: 20px;
 }
 .text{
 	width: 100%;
@@ -114,6 +85,7 @@ body{
 	padding: 30px;
 	text-align: justify;
 	font-size: calc(24px + 16 * (100vw / 1280));
+	background: white;
 	}
 
 .logo{
@@ -139,23 +111,23 @@ nav{
 	align-items: center;
 }
 .topnav{
-	background-color: white;
 	font-size: 18px;
 	margin-top: 40px;
 	margin-bottom: 20px;
 	text-align: center;
+	background-color: white;
 }
 .topnav a{
 	color: #242F9B;
-	padding: 14px 16px;
+	padding: 4px 10px;
 	font-size: 20px;
 	float: none;
+	border: 5px outset #242F9B;
+	background: #BDE6F1;
 }
 
-
-
 .topnav a:hover{
-	border: 2px solid #242F9B;
+	border: 5px outset #242F9B;
 	background: #7FB5FF;
 
 }
