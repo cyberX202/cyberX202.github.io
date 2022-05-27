@@ -1,0 +1,150 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+p{color: black;
+    font-size: 20px;
+    margin: 2%;
+    font-family: 'Vollkorn', serif;
+    }
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+}
+header a{
+	text-decoration: none;
+}
+
+li{color: black;
+    font-size: 18px;
+    margin: 2%;
+    margin-left: 50px;
+    font-family: 'Vollkorn', serif;
+}
+h1{color: #242F9B;
+    font-size: 35px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    font-family: 'Playfair Display', serif;
+}	  
+span{color: #001D6E;
+    font-size: 25px;
+    margin: 2%;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    font-weight: 600;
+}
+body{
+	width: 100%;
+    height: 100%;
+    font-size: 2em;
+    line-height:135%;
+    font-family: 'Playfair Display', serif;
+} 
+.container{
+	width: 100%;
+	max-width: 3500px;
+	margin: 0px auto;
+	padding: 0px 0px;
+}
+
+@media(max-width: 1200px){
+	.container{
+		max-width: 970px;
+	}
+}
+@media(max-width: 976px){
+	.container{
+		max-width: 760px;
+	}
+}
+@media(max-width: 767px){
+	.container{
+		max-width: 480px;
+	}
+}
+@media(max-width: 485px){
+	.container{
+		max-width: none;
+	}
+}
+
+
+
+.main{
+	background-color: #06113C;
+	width: 100%;
+	margin-top: 20px;
+}
+.text{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 30px;
+	text-align: justify;
+	font-size: calc(24px + 16 * (100vw / 1280));
+	background: white;
+	}
+
+.logo{
+	margin: 0 auto;
+	max-width: 3500px;
+	background: black;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+	background-position: top center;
+}
+.graficlogo{
+	max-width: 100%;
+	box-sizing: border-box;
+}
+nav{
+	margin: auto;
+	width: 100%;
+	height: 30px;
+	font-family: 'Caveat', cursive;
+	justify-content: space-between;
+	align-items: center;
+}
+.topnav{
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: white;
+}
+.topnav a{
+	color: #242F9B;
+	padding: 4px 10px;
+	font-size: 20px;
+	float: none;
+	border: 5px outset #242F9B;
+	background: #BDE6F1;
+}
+
+.topnav a:hover{
+	border: 5px outset #242F9B;
+	background: #7FB5FF;
+
+}
+.picture{
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;	
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+img.picture{
+	margin: 0 auto;
+	width: 1000px;
+	max-width: 90%;
+	min-width: 500px;
+}
